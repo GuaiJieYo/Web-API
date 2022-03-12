@@ -20,17 +20,17 @@ GuaiJie·API建于2022年03月12日
 
 ## 请求地址<!-- {docsify-ignore} -->
 ```
-https://guaijie.ml
+https://api.guaijie.ml/api/bing
 ```
 
 ## 请求示例 GET<!-- {docsify-ignore} -->
 ```
-https://guaijie.ml
+https://api.guaijie.ml/api/bing
 ```
 
 ## 返回效果<!-- {docsify-ignore} -->
 
-<img src="https://tenapi.cn/bing/" >
+<img src="https://api.guaijie.ml/api/bing" >
 
 ## 请求参数<!-- {docsify-ignore} -->
 
@@ -42,17 +42,17 @@ https://guaijie.ml
 
 ## 请求地址<!-- {docsify-ignore} -->
 ```
-https://guaijie.ml
+https://api.guaijie.ml/api/gravatar
 ```
 
 ## 请求示例 GET<!-- {docsify-ignore} -->
 ```
-https://guaijie.ml
+https://api.guaijie.ml/api/gravatar/?email=guaijieaz@gmail.com&proxy=true
 ```
 
 ## 返回效果<!-- {docsify-ignore} -->
 
-<img src="https://tenapi.cn/bing/" >
+<img src="https://api.guaijie.ml/api/gravatar/?email=guaijieaz@gmail.com&proxy=true" >
 
 ## 请求参数<!-- {docsify-ignore} -->
 
