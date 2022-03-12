@@ -47,12 +47,12 @@ https://api.guaijie.ml/api/gravatar
 
 ## 请求示例 GET<!-- {docsify-ignore} -->
 ```
-https://api.guaijie.ml/api/gravatar/?email=guaijieaz@gmail.com&proxy=true
+https://api.guaijie.ml/api/gravatar/?email=xxx@gmail.com&proxy=true
 ```
 
 ## 返回效果<!-- {docsify-ignore} -->
 
-<img src="https://api.guaijie.ml/api/gravatar/?email=guaijieaz@gmail.com&proxy=true" >
+<img src="https://api.guaijie.ml/api/gravatar/?email=xxx@gmail.com&proxy=true" >
 
 ## 请求参数<!-- {docsify-ignore} -->
 
