@@ -6,6 +6,7 @@ GuaiJie·API建于2022年03月12日
 - 简单、轻便
 - 网站稳定不会暴毙
 - 访问速度快
+- PHP与Python编写
 
 首页地址：[https://api.guaijie.ml](https://api.guaijie.ml)
 
