@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+// error_reporting(0);
 $file= __DIR__ . '/..'.$_SERVER["PHP_SELF"];
 if(file_exists($file)){
    return false;
