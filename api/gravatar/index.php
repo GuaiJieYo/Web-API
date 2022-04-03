@@ -1,7 +1,7 @@
 <?php
     error_reporting(0);
-    $proxy = $_GET['proxy'];
-    $email = $_GET['email'];
+    $proxy = $_REQUEST['proxy'];
+    $email = $_REQUEST['email'];
     if (!empty($email)) {
     $emailmd5 = md5($email);
     $proxyurl = "https://seccdn.libravatar.org/avatar/".$emailmd5;
