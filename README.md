@@ -10,7 +10,7 @@ GuaiJie·API建于2022年03月12日
 
 首页地址：[https://api.guaijie.ml](https://api.guaijie.ml)
 
-## 响应参数<!-- {docsify-ignore} -->
+## 响应参数
 200 请求/解析成功
 
 201 未输入请求参数
@@ -19,21 +19,21 @@ GuaiJie·API建于2022年03月12日
 
 # Bing每日壁纸获取
 
-## 请求地址<!-- {docsify-ignore} -->
+## 请求地址
 ```
 https://api.guaijie.ml/api/bing
 ```
 
-## 请求示例 GET<!-- {docsify-ignore} -->
+## 请求示例 GET
 ```
 https://api.guaijie.ml/api/bing
 ```
 
-## 返回效果<!-- {docsify-ignore} -->
+## 返回效果
 
 <img src="https://api.guaijie.ml/api/bing" >
 
-## 请求参数<!-- {docsify-ignore} -->
+## 请求参数
 
 | 参数名称      | 类型 | 参数值 | 描述 |
 | :-----------: | :-----------: | :-----------: | :-----------: |
@@ -41,21 +41,21 @@ https://api.guaijie.ml/api/bing
 
 # Gravatar头像获取
 
-## 请求地址<!-- {docsify-ignore} -->
+## 请求地址
 ```
 https://api.guaijie.ml/api/gravatar
 ```
 
-## 请求示例 GET<!-- {docsify-ignore} -->
+## 请求示例 GET
 ```
 https://api.guaijie.ml/api/gravatar/?email=xxx@gmail.com&proxy=true
 ```
 
-## 返回效果<!-- {docsify-ignore} -->
+## 返回效果
 
 <img src="https://api.guaijie.ml/api/gravatar/?email=xxx@gmail.com&proxy=true" >
 
-## 请求参数<!-- {docsify-ignore} -->
+## 请求参数
 
 | 参数名称      | 类型 | 参数值 | 描述 |
 | :-----------: | :-----------: | :-----------: | :-----------: |
