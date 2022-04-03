@@ -4,7 +4,7 @@
     $email = $_REQUEST['email'];
     if (!empty($email)) {
     $emailmd5 = md5($email);
-    $proxyurl = "https://seccdn.libravatar.org/avatar/".$emailmd5;
+    $proxyurl = "https://gravatar.loli.top/avatar/".$emailmd5;
     $url = "https://gravatar.com/avatar".$emailmd5;
         if (!empty($proxy)) {
             if ($proxy == true) {
@@ -17,7 +17,7 @@
         }
         
     }else if ($proxy == true) {
-    $proxyurl = "https://seccdn.libravatar.org/avatar/".$emailmd5;
+    $proxyurl = "https://gravatar.loli.top/avatar/".$emailmd5;
         header("Location: {$proxyurl}");
     }else {
         header("Location: https://gravatar.com/avatar");
