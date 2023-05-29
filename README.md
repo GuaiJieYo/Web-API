@@ -8,7 +8,7 @@ GuaiJie·API建于2022年03月12日
 - 访问速度快
 - PHP编写
 
-首页地址：[https://api.guaijie.ml](https://api.guaijie.ml)
+首页地址：[https://api.guaijie.top](https://api.guaijie.top)
 
 ## 响应参数
 200 请求/解析成功
@@ -21,17 +21,17 @@ GuaiJie·API建于2022年03月12日
 
 ## 请求地址
 ```
-https://api.guaijie.ml/api/bing
+https://api.guaijie.top/api/bing
 ```
 
 ## 请求示例 GET
 ```
-https://api.guaijie.ml/api/bing
+https://api.guaijie.top/api/bing
 ```
 
 ## 返回效果
 
-<img src="https://api.guaijie.ml/api/bing" >
+<img src="https://api.guaijie.top/api/bing" >
 
 ## 请求参数
 
@@ -43,17 +43,17 @@ https://api.guaijie.ml/api/bing
 
 ## 请求地址
 ```
-https://api.guaijie.ml/api/gravatar
+https://api.guaijie.top/api/gravatar
 ```
 
 ## 请求示例 GET
 ```
-https://api.guaijie.ml/api/gravatar/?email=xxx@gmail.com&proxy=true
+https://api.guaijie.top/api/gravatar/?email=xxx@gmail.com&proxy=true
 ```
 
 ## 返回效果
 
-<img src="https://api.guaijie.ml/api/gravatar/?email=xxx@gmail.com&proxy=true" >
+<img src="https://api.guaijie.top/api/gravatar/?email=xxx@gmail.com&proxy=true" >
 
 ## 请求参数
 
