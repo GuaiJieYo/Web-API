@@ -4,9 +4,9 @@ GuaiJie·API建于2022年03月12日
 > 一个简单的API网站。
 
 - 简单、轻便
-- 网站稳定不会暴毙
+- 基于Vercel网站稳定不易暴毙
 - 访问速度快
-- PHP编写
+- NodeJS编写
 
 首页地址：[https://api.guaijie.top](https://api.guaijie.top)
 
