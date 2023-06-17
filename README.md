@@ -37,7 +37,7 @@ https://api.guaijie.top/api/bing
 
 | 参数名称      | 类型 | 参数值 | 描述 |
 | :-----------: | :-----------: | :-----------: | :-----------: |
-| NULL   | NULL        | NULL   | NULL        |
+| uhd   | 布朗值        | true   | 填写true则可以返回4K画质的图片        |
 
 # Gravatar头像获取
 
