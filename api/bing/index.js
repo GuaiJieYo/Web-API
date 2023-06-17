@@ -8,7 +8,6 @@ module.exports = async (req, res) => {
     const response = await fetch(BING_API_URL);
     const { images } = await response.json();
     let imageUrl = `https://cn.bing.com${images[0].url}`;
-    imageUrl = uhd ? imageUrl.replace("1920x1080","UHD") : imageUrl;
     
     return res.redirect(302, imageUrl);
   } catch (err) {
