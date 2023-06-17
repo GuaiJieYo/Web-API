@@ -1,28 +1,26 @@
 const crypto = require('crypto');
-const http = require('http');
+const url = require('url');
 
-const url = new URL(window.location.href);
-const proxy = url.searchParams.get('proxy') === 'true';
-const email = url.searchParams.get('email');
+module.exports = async (req, res) => {
+  try {
+    const { proxy, email } = req.query;
 
-if (email) {
-  const emailmd5 = crypto.createHash('md5').update(email).digest('hex');
-  const proxyurl = `https://gravatar.loli.top/avatar/${emailmd5}`;
-  const avatarurl = `https://gravatar.com/avatar/${emailmd5}`;
+    if (!email) {
+      if (proxy) {
+        const proxyUrl = 'https://gravatar.loli.top/avatar/';
+        return res.redirect(302, proxyUrl);
+      } else {
+        const defaultUrl = 'https://gravatar.com/avatar';
+        return res.redirect(302, defaultUrl);
+      }
+    }
 
-  if (proxy) {
-    res.writeHead(302, { Location: proxyurl });
-  } else {
-    res.writeHead(302, { Location: avatarurl });
+    const emailmd5 = crypto.createHash('md5').update(email).digest('hex');
+    const urlObj = url.parse(proxy ? `https://gravatar.loli.top/avatar/${emailmd5}` : `https://gravatar.com/avatar/${emailmd5}`);
+    return res.redirect(302, url.format(urlObj));
+
+  } catch (err) {
+    console.error(err);
+    return res.status(500).send('Internal Server Error');
   }
-
-} else if (proxy) {
-  const emailmd5 = crypto.createHash('md5').update(email).digest('hex');
-  const proxyurl = `https://gravatar.loli.top/avatar/${emailmd5}`;
-  res.writeHead(302, { Location: proxyurl });
-
-} else {
-  res.writeHead(302, { Location: 'https://gravatar.com/avatar' });
-}
-
-res.end();
+};
