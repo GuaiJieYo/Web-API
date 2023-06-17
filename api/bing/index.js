@@ -3,10 +3,7 @@ const { URL } = require('url');
 
 module.exports = (req, res) => {
   // 构建请求 URL
-  const apiUrl = new URL('https://bing.com/HPImageArchive.aspx');
-  apiUrl.searchParams.append('format', 'js');
-  apiUrl.searchParams.append('idx', '0');
-  apiUrl.searchParams.append('n', '1');
+  const apiUrl = new URL('https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN');
   if (req.query.uhd === 'true') {
     apiUrl.searchParams.append('uhd', '1');
   }
