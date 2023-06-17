@@ -24,20 +24,20 @@ GuaiJie·API建于2022年03月12日
 https://api.guaijie.top/api/bing
 ```
 
-## 请求示例 GET
+## 请求示例 [GET]
 ```
-https://api.guaijie.top/api/bing
+https://api.guaijie.top/api/bing/?uhd=true
 ```
-
-## 返回效果
-
-<img src="https://api.guaijie.top/api/bing" >
 
 ## 请求参数
 
 | 参数名称      | 类型 | 参数值 | 描述 |
 | :-----------: | :-----------: | :-----------: | :-----------: |
 | uhd   | 布朗值        | true   | 填写true则可以返回4K画质的图片        |
+
+## 返回效果
+
+<img src="https://api.guaijie.top/api/bing/?uhd=true" >
 
 # Gravatar头像获取
 
@@ -46,14 +46,10 @@ https://api.guaijie.top/api/bing
 https://api.guaijie.top/api/gravatar
 ```
 
-## 请求示例 GET
+## 请求示例 [GET]
 ```
 https://api.guaijie.top/api/gravatar/?email=xxx@gmail.com&proxy=true
 ```
-
-## 返回效果
-
-<img src="https://api.guaijie.top/api/gravatar/?email=xxx@gmail.com&proxy=true" >
 
 ## 请求参数
 
@@ -61,3 +57,7 @@ https://api.guaijie.top/api/gravatar/?email=xxx@gmail.com&proxy=true
 | :-----------: | :-----------: | :-----------: | :-----------: |
 | email   | 字符串     | 邮箱地址 | 必填!!! 填写你在Gravatar注册时的地址 |
 | proxy   | 布朗值     | true   | 填写true即可使用国内加速节点        |
+
+## 返回效果
+
+<img src="https://api.guaijie.top/api/gravatar/?email=xxx@gmail.com&proxy=true" >
