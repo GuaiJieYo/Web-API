@@ -14,7 +14,7 @@ module.exports = (req, res) => {
     apiRes.on('end', () => {
       // 解析 JSON 响应
       const data = JSON.parse(body);
-      const imageUrl = `https://bing.com${data.images[0].url}`;
+      const imageUrl = `https://cn.bing.com${data.images[0].url}`;
 
       // 进行重定向
       res.setHeader('Location', req.query.uhd === 'true' ? imageUrl.replace("1920x1080","UHD") : imageUrl);
